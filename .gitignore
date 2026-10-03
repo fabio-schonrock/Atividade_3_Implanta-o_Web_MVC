@@ -1,0 +1,16 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+## Rider
+.idea/
+
+## Operating system files
+.DS_Store
+Thumbs.db
