@@ -7,11 +7,11 @@ public class Fornecedor
     public string Email { get; set; }
     public string Cnpj { get; set; }
 
-    public Fornecedor(int id, string nome, string email, string cnpj)
+    public Fornecedor(int id, string nome, string cnpj, string email)
     {
         this.Id = id;
         this.Nome = nome;
-        this.Email = email;
         this.Cnpj = cnpj;
+        this.Email = email;
     }
 }
